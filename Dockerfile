@@ -16,11 +16,7 @@ RUN apt-get update && apt-get install -y cloudflared
 COPY ./ssh-client.conf /root/ssh-client.conf
 RUN cat /root/.ssh/config
 COPY ./entrypoint.sh /root/entrypoint.sh
-COPY ./expect.sh /root/expect.sh
-RUN touch /root/expect-final.sh
 RUN chmod a+x /root/entrypoint.sh
-RUN chmod a+x /root/expect.sh
-RUN chmod a+x /root/expect-final.sh
 RUN cat /root/entrypoint.sh
 
 ENTRYPOINT ["/root/entrypoint.sh"]
