@@ -1,4 +1,4 @@
-# Setup cloudflared tunnel ssh proxy for GitHub Actions
+# Setup cloudflared ssh proxy for GitHub Actions
 
 run ssh command through cloudflared tunnel proxy
 ```yml
