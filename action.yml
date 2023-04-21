@@ -1,5 +1,5 @@
 # action.yml
-name: 'setup-cloudflared-tunnel-ssh-proxy'
+name: 'setup-cloudflared-ssh-proxy'
 description: 'Setup cloudflared tunnel proxy, inside github actions'
 inputs:
   CF_CLIENT_ID:  # id of input
