@@ -20,7 +20,7 @@ EOL"
 
 chmod 0600 /root/.ssh/id_rsa
 echo "***  connecting to ssh targrt: ***\n"
-cat /root/.ssh/config
+cat ~/.ssh/config
 echo "***  running commands: ***\n"
 cat ./commands.txt
 /root/expect-final.sh
